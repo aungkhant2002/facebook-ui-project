@@ -289,6 +289,115 @@ i {
     width: 50%;
 }
 
+.story-container {
+    display: flex;
+    margin-left: 30px;
+}
+
+.my-story-item {
+    margin: 20px 5px 20px 20px;
+    position: relative;
+}
+
+.my-story-card {
+    width: 110px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.my-story-img {
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: 130%;
+    background-repeat: no-repeat;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--semi-dark);
+    position: absolute;
+    bottom: 38px;
+}
+
+.my-story-menu {
+    background-color: var(--semi-dark);
+    height: 60px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+
+.my-story-icon {
+    font-size: 30px;
+    margin-top: -25px;
+    color: var(--primary);
+    z-index: 3;
+}
+
+.my-story-text {
+    padding-top: 15px;
+    font-weight: bolder;
+}
+
+.story-item {
+    margin: 20px 10px;
+    position: relative;
+}
+
+.story-card {
+    width: 110px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.story-img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.story-owner {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 3px solid var(--primary);
+}
+
+.story-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-weight: bolder;
+}
+
+.next {
+    width: 40px;
+    height: 40px;
+    background-color: var(--soft-dark);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px !important;
+    position: absolute;
+    right: -23px;
+    top: 40%;
+}
+
 .chat-box {
     width: 25%;
 }
